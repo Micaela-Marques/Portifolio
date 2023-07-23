@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="portifolio" src=".assets/../assets/portifolio.png" width="700px">
+  <img alt="portifolio" src="./assets/portifolio.png" width="700px">
 
 </p>
 
@@ -13,8 +13,7 @@
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
 - **HTML** **e** **CSS**
-- **Javascript**
-- **Git** **e** **GitHub**
+
   
   ---
   <h3 align="center">Projeto💻 </h3>
