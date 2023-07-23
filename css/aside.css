@@ -1,0 +1,238 @@
+aside {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  
+  .img-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .card {
+    width: 348px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: Merriweather Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .profile {
+    text-align: center;
+    height: 292px;
+  }
+  
+  .profile img {
+    margin-top: 32px;
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 128px;
+    border: 2px solid #0f0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .profile-name {
+    margin-top: 10px;
+    width: 352px;
+    height: 26px;
+    flex-shrink: 0;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  
+  .profile-work {
+    margin-top: 10px;
+    width: 300px;
+    height: 26px;
+    flex-shrink: 0;
+    font-weight: 300;
+  }
+  
+  .links {
+    width: 348px;
+    height: 348px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+  }
+  
+  .links ul {
+    margin: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+    height: 100%;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .links .icone {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .links ul a {
+    display: flex;
+    align-items: center;
+    color: #837e9f;
+    gap: 16px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .tech {
+    height: 208px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tech .tech-title {
+    color: #837e9f;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  
+  .tech .tags {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+  
+  .tech .tags .tag {
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 30px;
+    background: #cb92b1;
+    width: 86px;
+    height: 24px;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .experience .card {
+    height: 349px;
+  }
+  
+  .experience-title {
+    width: 141px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 20px;
+  }
+  
+  .experience ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  
+  .exp-title {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .current {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .comunity {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .exp-tag {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-educ {
+    padding: 0 20px;
+    width: 141px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .curse-list {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  .list-educ{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .name-curse {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+  
+  .period {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .type {
+    color: #837e9f;
+    font-family: Merriweather Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
